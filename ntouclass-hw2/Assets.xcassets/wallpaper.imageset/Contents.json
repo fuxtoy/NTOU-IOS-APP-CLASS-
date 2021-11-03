@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "fuji weekly wallpaper .jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "fuji weekly wallpaper -1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "fuji weekly wallpaper -2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
