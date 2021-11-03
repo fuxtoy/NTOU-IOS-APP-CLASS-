@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct bayercate{
+    let Recipe_name:String
+    let test_on:String
+}

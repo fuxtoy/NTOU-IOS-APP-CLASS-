@@ -6,3 +6,7 @@
 //
 
 import Foundation
+var bayercatego = [
+    bayercate(Recipe_name: "golden negative-test", test_on: "X-T200"),
+    bayercate(Recipe_name: "nul", test_on: "nul")
+]

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct catego{
+    let Recipe_name:String
+    let forwhat:String
+}

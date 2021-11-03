@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct BayerList: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+                NavigationView {
+                    List{
+                    Section(header: Text("")){
+                        ForEach(0 ..< 1){(item) in
+                            NavigationLink(destination: Golden_negative_recipe()) {
+                        BayerRow(bayercla: bayercatego[item])
+                                }
+                            }
+                    }
+                }
+                .navigationBarTitle(Text("Bayer type camera recipe "), displayMode: .inline)
+                NavigationLink(destination: Golden_negative_recipe())
+                    {
+                        BayerRow(bayercla: bayercatego[0])
+                    }
+            }
+}
 }
 
 struct BayerList_Previews: PreviewProvider {

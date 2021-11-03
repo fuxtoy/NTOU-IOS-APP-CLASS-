@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8257FB522732665E00F06964 /* bayercate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB512732665D00F06964 /* bayercate.swift */; };
+		8257FB542732695A00F06964 /* bayerrecipedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB532732695A00F06964 /* bayerrecipedata.swift */; };
+		8257FB5627326FB800F06964 /* BayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB5527326FB800F06964 /* BayerList.swift */; };
+		8257FB5827326FD900F06964 /* BayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB5727326FD900F06964 /* BayerRow.swift */; };
+		8257FB5A2732722000F06964 /* Golden_negative_recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB592732722000F06964 /* Golden_negative_recipe.swift */; };
+		8257FB5C273282B600F06964 /* trans1cate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB5B273282B600F06964 /* trans1cate.swift */; };
+		8257FB5E273282C300F06964 /* trans4cate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB5D273282C300F06964 /* trans4cate.swift */; };
+		8257FB602732830200F06964 /* trans1data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB5F2732830200F06964 /* trans1data.swift */; };
+		8257FB622732830F00F06964 /* trans4data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB612732830F00F06964 /* trans4data.swift */; };
+		8257FB64273284CD00F06964 /* Trans1Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB63273284CD00F06964 /* Trans1Row.swift */; };
+		8257FB66273284DA00F06964 /* Trans4Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB65273284DA00F06964 /* Trans4Row.swift */; };
+		8257FB68273298F100F06964 /* Protra_style_recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB67273298F000F06964 /* Protra_style_recipe.swift */; };
+		8257FB6C27329A9900F06964 /* Fujicolor_c200_recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB6B27329A9900F06964 /* Fujicolor_c200_recipe.swift */; };
+		8257FB6E2732A6ED00F06964 /* Kodachrome_I_recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB6D2732A6EC00F06964 /* Kodachrome_I_recipe.swift */; };
+		8257FB702732A70400F06964 /* Kadochrome_II_recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB6F2732A70400F06964 /* Kadochrome_II_recipe.swift */; };
+		8257FB722732A71900F06964 /* Winter_blue_recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257FB712732A71900F06964 /* Winter_blue_recipe.swift */; };
+		827BD4392729170600DAD756 /* ntouclass_hw2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD4382729170600DAD756 /* ntouclass_hw2App.swift */; };
+		827BD43B2729170600DAD756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD43A2729170600DAD756 /* ContentView.swift */; };
+		827BD43D2729171200DAD756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827BD43C2729171200DAD756 /* Assets.xcassets */; };
+		827BD4402729171200DAD756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827BD43F2729171200DAD756 /* Preview Assets.xcassets */; };
+		827BD44727293D0800DAD756 /* first_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD44627293D0700DAD756 /* first_page.swift */; };
+		827BD44927293D8A00DAD756 /* photowall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD44827293D8A00DAD756 /* photowall.swift */; };
+		827BD44B27293DAF00DAD756 /* customize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD44A27293DAF00DAD756 /* customize.swift */; };
+		827BD44D2729587100DAD756 /* PhotoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD44C2729587000DAD756 /* PhotoPage.swift */; };
+		827BD44F2729588900DAD756 /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD44E2729588900DAD756 /* PhotoItem.swift */; };
+		827BD45327296E3400DAD756 /* photodata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD45227296E3400DAD756 /* photodata.swift */; };
+		827BD45727297FB700DAD756 /* X-trans1List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD45627297FB700DAD756 /* X-trans1List.swift */; };
+		827BD45927297FC600DAD756 /* X-trans4List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD45827297FC600DAD756 /* X-trans4List.swift */; };
+		827BD45B2729820500DAD756 /* classdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD45A2729820400DAD756 /* classdata.swift */; };
+		827BD45D2729837C00DAD756 /* ClassRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD45C2729837C00DAD756 /* ClassRow.swift */; };
+		827BD45F2729861400DAD756 /* catego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827BD45E2729861400DAD756 /* catego.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8257FB512732665D00F06964 /* bayercate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bayercate.swift; sourceTree = "<group>"; };
+		8257FB532732695A00F06964 /* bayerrecipedata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bayerrecipedata.swift; sourceTree = "<group>"; };
+		8257FB5527326FB800F06964 /* BayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayerList.swift; sourceTree = "<group>"; };
+		8257FB5727326FD900F06964 /* BayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayerRow.swift; sourceTree = "<group>"; };
+		8257FB592732722000F06964 /* Golden_negative_recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_negative_recipe.swift; sourceTree = "<group>"; };
+		8257FB5B273282B600F06964 /* trans1cate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trans1cate.swift; sourceTree = "<group>"; };
+		8257FB5D273282C300F06964 /* trans4cate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trans4cate.swift; sourceTree = "<group>"; };
+		8257FB5F2732830200F06964 /* trans1data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trans1data.swift; sourceTree = "<group>"; };
+		8257FB612732830F00F06964 /* trans4data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trans4data.swift; sourceTree = "<group>"; };
+		8257FB63273284CD00F06964 /* Trans1Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trans1Row.swift; sourceTree = "<group>"; };
+		8257FB65273284DA00F06964 /* Trans4Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trans4Row.swift; sourceTree = "<group>"; };
+		8257FB67273298F000F06964 /* Protra_style_recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protra_style_recipe.swift; sourceTree = "<group>"; };
+		8257FB6B27329A9900F06964 /* Fujicolor_c200_recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fujicolor_c200_recipe.swift; sourceTree = "<group>"; };
+		8257FB6D2732A6EC00F06964 /* Kodachrome_I_recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kodachrome_I_recipe.swift; sourceTree = "<group>"; };
+		8257FB6F2732A70400F06964 /* Kadochrome_II_recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadochrome_II_recipe.swift; sourceTree = "<group>"; };
+		8257FB712732A71900F06964 /* Winter_blue_recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winter_blue_recipe.swift; sourceTree = "<group>"; };
+		8257FB732732B2A200F06964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		827BD4352729170600DAD756 /* ntouclass-hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ntouclass-hw2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827BD4382729170600DAD756 /* ntouclass_hw2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ntouclass_hw2App.swift; sourceTree = "<group>"; };
+		827BD43A2729170600DAD756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		827BD43C2729171200DAD756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		827BD43F2729171200DAD756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		827BD44627293D0700DAD756 /* first_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_page.swift; sourceTree = "<group>"; };
+		827BD44827293D8A00DAD756 /* photowall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photowall.swift; sourceTree = "<group>"; };
+		827BD44A27293DAF00DAD756 /* customize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customize.swift; sourceTree = "<group>"; };
+		827BD44C2729587000DAD756 /* PhotoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPage.swift; sourceTree = "<group>"; };
+		827BD44E2729588900DAD756 /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+		827BD45227296E3400DAD756 /* photodata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photodata.swift; sourceTree = "<group>"; };
+		827BD45627297FB700DAD756 /* X-trans1List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "X-trans1List.swift"; sourceTree = "<group>"; };
+		827BD45827297FC600DAD756 /* X-trans4List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "X-trans4List.swift"; sourceTree = "<group>"; };
+		827BD45A2729820400DAD756 /* classdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classdata.swift; sourceTree = "<group>"; };
+		827BD45C2729837C00DAD756 /* ClassRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRow.swift; sourceTree = "<group>"; };
+		827BD45E2729861400DAD756 /* catego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catego.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		827BD4322729170600DAD756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		827BD42C2729170500DAD756 = {
+			isa = PBXGroup;
+			children = (
+				827BD4372729170600DAD756 /* ntouclass-hw2 */,
+				827BD4362729170600DAD756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		827BD4362729170600DAD756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827BD4352729170600DAD756 /* ntouclass-hw2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827BD4372729170600DAD756 /* ntouclass-hw2 */ = {
+			isa = PBXGroup;
+			children = (
+				8257FB732732B2A200F06964 /* Info.plist */,
+				827BD4382729170600DAD756 /* ntouclass_hw2App.swift */,
+				827BD43A2729170600DAD756 /* ContentView.swift */,
+				827BD44627293D0700DAD756 /* first_page.swift */,
+				827BD44A27293DAF00DAD756 /* customize.swift */,
+				827BD45C2729837C00DAD756 /* ClassRow.swift */,
+				8257FB5727326FD900F06964 /* BayerRow.swift */,
+				8257FB65273284DA00F06964 /* Trans4Row.swift */,
+				8257FB63273284CD00F06964 /* Trans1Row.swift */,
+				8257FB512732665D00F06964 /* bayercate.swift */,
+				8257FB5B273282B600F06964 /* trans1cate.swift */,
+				8257FB5D273282C300F06964 /* trans4cate.swift */,
+				827BD45E2729861400DAD756 /* catego.swift */,
+				827BD44827293D8A00DAD756 /* photowall.swift */,
+				827BD45627297FB700DAD756 /* X-trans1List.swift */,
+				827BD45827297FC600DAD756 /* X-trans4List.swift */,
+				827BD44E2729588900DAD756 /* PhotoItem.swift */,
+				827BD44C2729587000DAD756 /* PhotoPage.swift */,
+				827BD45227296E3400DAD756 /* photodata.swift */,
+				827BD45A2729820400DAD756 /* classdata.swift */,
+				8257FB6D2732A6EC00F06964 /* Kodachrome_I_recipe.swift */,
+				8257FB6F2732A70400F06964 /* Kadochrome_II_recipe.swift */,
+				8257FB712732A71900F06964 /* Winter_blue_recipe.swift */,
+				8257FB5527326FB800F06964 /* BayerList.swift */,
+				8257FB592732722000F06964 /* Golden_negative_recipe.swift */,
+				8257FB6B27329A9900F06964 /* Fujicolor_c200_recipe.swift */,
+				8257FB67273298F000F06964 /* Protra_style_recipe.swift */,
+				8257FB532732695A00F06964 /* bayerrecipedata.swift */,
+				8257FB5F2732830200F06964 /* trans1data.swift */,
+				8257FB612732830F00F06964 /* trans4data.swift */,
+				827BD43C2729171200DAD756 /* Assets.xcassets */,
+				827BD43E2729171200DAD756 /* Preview Content */,
+			);
+			path = "ntouclass-hw2";
+			sourceTree = "<group>";
+		};
+		827BD43E2729171200DAD756 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				827BD43F2729171200DAD756 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		827BD4342729170600DAD756 /* ntouclass-hw2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827BD4432729171200DAD756 /* Build configuration list for PBXNativeTarget "ntouclass-hw2" */;
+			buildPhases = (
+				827BD4312729170600DAD756 /* Sources */,
+				827BD4322729170600DAD756 /* Frameworks */,
+				827BD4332729170600DAD756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ntouclass-hw2";
+			productName = "ntouclass-hw2";
+			productReference = 827BD4352729170600DAD756 /* ntouclass-hw2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		827BD42D2729170600DAD756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					827BD4342729170600DAD756 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 827BD4302729170600DAD756 /* Build configuration list for PBXProject "ntouclass-hw2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 827BD42C2729170500DAD756;
+			productRefGroup = 827BD4362729170600DAD756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				827BD4342729170600DAD756 /* ntouclass-hw2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		827BD4332729170600DAD756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827BD4402729171200DAD756 /* Preview Assets.xcassets in Resources */,
+				827BD43D2729171200DAD756 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		827BD4312729170600DAD756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827BD44F2729588900DAD756 /* PhotoItem.swift in Sources */,
+				8257FB5A2732722000F06964 /* Golden_negative_recipe.swift in Sources */,
+				827BD44B27293DAF00DAD756 /* customize.swift in Sources */,
+				827BD45B2729820500DAD756 /* classdata.swift in Sources */,
+				8257FB6C27329A9900F06964 /* Fujicolor_c200_recipe.swift in Sources */,
+				827BD44D2729587100DAD756 /* PhotoPage.swift in Sources */,
+				827BD45D2729837C00DAD756 /* ClassRow.swift in Sources */,
+				8257FB542732695A00F06964 /* bayerrecipedata.swift in Sources */,
+				8257FB622732830F00F06964 /* trans4data.swift in Sources */,
+				827BD44927293D8A00DAD756 /* photowall.swift in Sources */,
+				8257FB5C273282B600F06964 /* trans1cate.swift in Sources */,
+				8257FB522732665E00F06964 /* bayercate.swift in Sources */,
+				8257FB602732830200F06964 /* trans1data.swift in Sources */,
+				8257FB5827326FD900F06964 /* BayerRow.swift in Sources */,
+				8257FB702732A70400F06964 /* Kadochrome_II_recipe.swift in Sources */,
+				8257FB64273284CD00F06964 /* Trans1Row.swift in Sources */,
+				827BD44727293D0800DAD756 /* first_page.swift in Sources */,
+				8257FB5627326FB800F06964 /* BayerList.swift in Sources */,
+				827BD45F2729861400DAD756 /* catego.swift in Sources */,
+				8257FB722732A71900F06964 /* Winter_blue_recipe.swift in Sources */,
+				827BD43B2729170600DAD756 /* ContentView.swift in Sources */,
+				8257FB68273298F100F06964 /* Protra_style_recipe.swift in Sources */,
+				827BD45927297FC600DAD756 /* X-trans4List.swift in Sources */,
+				8257FB6E2732A6ED00F06964 /* Kodachrome_I_recipe.swift in Sources */,
+				8257FB5E273282C300F06964 /* trans4cate.swift in Sources */,
+				827BD45327296E3400DAD756 /* photodata.swift in Sources */,
+				827BD4392729170600DAD756 /* ntouclass_hw2App.swift in Sources */,
+				8257FB66273284DA00F06964 /* Trans4Row.swift in Sources */,
+				827BD45727297FB700DAD756 /* X-trans1List.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		827BD4412729171200DAD756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		827BD4422729171200DAD756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		827BD4442729171200DAD756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ntouclass-hw2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ntouclass-hw2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ntouclass-hw2";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tim.ntouclass-hw2";
+				PRODUCT_NAME = "ntouclass-hw2";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		827BD4452729171200DAD756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ntouclass-hw2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ntouclass-hw2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ntouclass-hw2";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tim.ntouclass-hw2";
+				PRODUCT_NAME = "ntouclass-hw2";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		827BD4302729170600DAD756 /* Build configuration list for PBXProject "ntouclass-hw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827BD4412729171200DAD756 /* Debug */,
+				827BD4422729171200DAD756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827BD4432729171200DAD756 /* Build configuration list for PBXNativeTarget "ntouclass-hw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827BD4442729171200DAD756 /* Debug */,
+				827BD4452729171200DAD756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 827BD42D2729170600DAD756 /* Project object */;
+}

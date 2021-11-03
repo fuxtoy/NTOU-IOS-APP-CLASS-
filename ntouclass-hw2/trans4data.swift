@@ -6,3 +6,7 @@
 //
 
 import Foundation
+var trans4catego = [
+    trans4cate(Recipe_name: "portra-style-recipe", test_on: "X-E4"),
+    trans4cate(Recipe_name: "fujicolor c200-recipe", test_on: "X-T4")
+]

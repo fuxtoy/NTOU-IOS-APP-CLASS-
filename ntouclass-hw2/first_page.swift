@@ -9,12 +9,30 @@ import SwiftUI
 
 struct first_page: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            ContentView()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("主頁")
+                    
+                }
+            customize()
+                .tabItem {
+                    Image(systemName: "list.bullet.circle")
+                    Text("Recipes")
+            }
+            photowall()
+                .tabItem {
+                        Image(systemName: "camera.fill")
+                        Text("照片牆")
+                }
+        }
     }
 }
 
 struct first_page_Previews: PreviewProvider {
     static var previews: some View {
         first_page()
+        first_page().preferredColorScheme(.dark)
     }
 }

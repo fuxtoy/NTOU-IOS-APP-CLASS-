@@ -6,3 +6,8 @@
 //
 
 import Foundation
+var trans1catego = [
+    trans1cate(Recipe_name: "Kodachrome I-recipe", test_on: "X-PRO1"),
+    trans1cate(Recipe_name: "Kodachrome II-recipe", test_on: "X-PRO1"),
+    trans1cate(Recipe_name: "Winter blue-recipe", test_on: "X-M1")
+]

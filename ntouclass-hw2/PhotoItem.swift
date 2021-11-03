@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct PhotoItem: View {
+    var photoname:String="Kodachrome I"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image(photoname + " -" + String(1))
+                .resizable()
+                .scaledToFill()
+                .frame(width: 80, height: 80)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.black,lineWidth: 4))
+                //.shadow( radius: 10)
+            Text(photoname)
+                .fontWeight(.bold)
+                .foregroundColor(Color.purple)
+                .multilineTextAlignment(.center)
+                .lineLimit(nil)
+                .offset(y:-5)
+        }
+        .offset(y:15)
     }
 }
 

@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct PhotoPage: View {
+    var nameNum:Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            ForEach(1..<picNum[nameNum]+1){(index) in
+                Image(nameList[nameNum] + " -" + String(index))
+                    .resizable()
+                    .scaledToFit()
+                
+            }
+        }
+        .tabViewStyle(PageTabViewStyle())
     }
 }
 
 struct PhotoPage_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoPage()
+        PhotoPage(nameNum: 0)
     }
 }

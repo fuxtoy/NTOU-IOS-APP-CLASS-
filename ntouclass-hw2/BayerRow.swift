@@ -8,13 +8,31 @@
 import SwiftUI
 
 struct BayerRow: View {
+    let bayercla : bayercate
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(bayercla.Recipe_name).resizable().scaleEffect().clipped().frame(width: 250, height: 200);            VStack(alignment: .leading){
+                Text("Golden Negative")
+                    .foregroundColor(.accentColor)
+                    
+                
+                Text("TEST MECHINE -> "+bayercla.test_on)
+                    .foregroundColor(.accentColor)
+                    .padding([.top],40)
+            }
+            Spacer()
+        }
+        .background(LinearGradient(gradient: Gradient(colors:[ Color.yellow , Color.white]), startPoint: UnitPoint(x: 1, y: 1), endPoint: UnitPoint(x: 0, y: 0)))
+       // .background(Image(bayercla.Recipe_name).resizable().scaleEffect().clipped().opacity(0.8))
+        
     }
 }
 
 struct BayerRow_Previews: PreviewProvider {
     static var previews: some View {
-        BayerRow()
+        BayerRow(bayercla :bayercate(Recipe_name:"golden negative-test", test_on: "X-T200" )
+        )
+            .previewLayout(.sizeThatFits)
+        
     }
 }
